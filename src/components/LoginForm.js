@@ -1,8 +1,8 @@
-import React from 'react'
-import { Formik, Form, Field } from 'formik'
-import { TextField } from 'formik-material-ui'
+import React from 'react';
+import { Formik, Form, Field } from 'formik';
+import { TextField } from 'formik-material-ui';
 
-import Button from '@material-ui/core/Button'
+import Button from '@material-ui/core/Button';
 
 const LoginForm = ({ handleLogin }) => {
   const loginFormStyle = {
@@ -15,16 +15,15 @@ const LoginForm = ({ handleLogin }) => {
     left: 0,
     right: 0,
     bottom: 0,
-  }
+  };
   return (
     <div style={loginFormStyle}>
       <h2>Log in to application</h2>
       <Formik
         initialValues={{ username: '', password: '' }}
         onSubmit={(values, { setSubmitting }) => {
-          console.log(values)
-          handleLogin(values)
-          setSubmitting(false)
+          handleLogin(values);
+          setSubmitting(false);
         }}
       >
         {({ isSubmitting }) => (
@@ -72,7 +71,7 @@ const LoginForm = ({ handleLogin }) => {
         )}
       </Formik>
     </div>
-  )
-}
+  );
+};
 
-export default LoginForm
+export default LoginForm;
