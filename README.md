@@ -28,7 +28,7 @@ Launches the cypress end-to-end test runner without UI.<br />
 
 Launches the cypress end-to-end test runner with UI.<br />
 
-### `npm build`
+### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
