@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
- to see detail about the app.
+The blog list app is demonstrated at https://blog-list-nanyangcn.herokuapp.com.
  
 ## Available Scripts
 
