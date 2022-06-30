@@ -3,6 +3,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The blog list app is demonstrated at https://blog-list-nanyangcn.herokuapp.com.
+# login
+
+username1: qwert
+
+password1: 123456
+
+username1: poiuy
+
+password1: 654321
  
 ## Available Scripts
 
